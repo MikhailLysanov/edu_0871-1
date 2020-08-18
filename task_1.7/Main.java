@@ -17,7 +17,7 @@ public class Main {
         int b = scanner.nextInt();
         System.out.println("Введите глубину:");
         int c = scanner.nextInt();
-        int v = a * b * c;
+        int v = a * b * c * 1000;
 
         System.out.println("Объём: " + v);
     }
