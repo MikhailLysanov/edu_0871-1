@@ -24,6 +24,12 @@ public class Main {
                 exchange = exchange - 5;
                 continue;
             }
+            
+            if (exchange - 2 >= 0) {
+                System.out.println("2 руб");
+                exchange = exchange - 2;
+                continue;
+            }
 
             if (exchange - 1 >= 0) {
                 System.out.println("1 руб");
